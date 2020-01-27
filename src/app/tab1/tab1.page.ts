@@ -12,4 +12,11 @@ export class Tab1Page implements OnInit {
   ngOnInit() {
   }
 
+    escanear() {
+        console.log('He escaneado algo');
+    }
+
+  hola() {
+    console.log('he perdido el foco');
+  }
 }
